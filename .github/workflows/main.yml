@@ -55,7 +55,7 @@ jobs:
         export PATH=$OLDPATH
         export JAVA_HOME=$OLDJAVAHOME
     - name: Uploading LineageOS Recovery builds
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: lineagerecovery
         path: /home/runner/TWRP/out/target/product/y560/recovery.img
