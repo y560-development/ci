@@ -34,7 +34,7 @@ jobs:
         git clone https://github.com/JDCTeam/arm-linux-androideabi-5.2 -b opt-cm-19.1 /opt/toolchains/arm-eabi
         git clone https://github.com/y560-development/android_device_huawei_y560.git -b lineage-15.1 ~/TWRP/device/huawei/y560
         git clone https://github.com/y560-development/android_kernel_huawei_msm8909.git -b lineage-15.1 ~/TWRP/kernel/huawei/msm8909
-        git clone https://github.com/y560-development/proprietary_vendor_huawei.git -b lineage-15.1 ~/TWRP/proprietary/vendor/huawei
+        git clone https://github.com/y560-development/proprietary_vendor_huawei.git -b lineage-15.1 ~/TWRP/vendor/huawei
         python3 ~/.bin/repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
     - name: Building LineageOS
       run: |
