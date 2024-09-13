@@ -1,4 +1,4 @@
-name: LineageOS 15.1 CI
+name: LineageOS 15.1 Builder CI
 
 on:
   workflow_dispatch:
